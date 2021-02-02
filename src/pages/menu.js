@@ -1,17 +1,17 @@
 import React from "react"
 // import { Link } from "gatsby"
 // import { IconName } from "react-icons/gi";
-import { FaBeer } from 'react-icons/fa';
+// import { FaBeer } from 'react-icons/fa';
 import Layout from "../components/layout"
-// import Image from "../components/image"
+import img from "../images/menuBcg.jpeg"
 import SEO from "../components/seo"
+import {MainHeader} from '../utils/Header'
+import { Banner } from "../utils"
 
 const MenuPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <h3> This is Menu page <FaBeer /> </h3>
-
+    <MainHeader Header img={img}> <Banner title="menu" subtitle= {` let's dig in `} /> </MainHeader> 
   </Layout>
 )
 

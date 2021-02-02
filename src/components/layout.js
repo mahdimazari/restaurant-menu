@@ -8,7 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import './bootstrap.min.css';
-import Navbar from '../components/Global/navbar';
+import Navbar from '../components/Global/Navbar';
+import Footer from '../components/Global/Footer'
 // import { useStaticQuery, graphql } from "gatsby"
 // import Header from "./header"
 import "./layout.css"
@@ -18,6 +19,7 @@ const Layout = ({ children }) => {
    <React.Fragment>
      <Navbar />
      {children}
+     <Footer />
    </React.Fragment>
  )
 }

@@ -3,13 +3,14 @@ import React from "react"
 // import { IconName } from "react-icons/gi";
 // import { FaBeer } from 'react-icons/fa';
 import Layout from "../components/layout"
-// import Image from "../components/image"
+import img from "../images/contactBcg.jpeg"
 import SEO from "../components/seo"
-
+import {MainHeader} from '../utils/Header'
 const ContactPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h3>THis is contact page</h3>
+   
+    <MainHeader Header img={img}> hello from Contact</MainHeader> 
   </Layout>
 )
 

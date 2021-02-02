@@ -5,7 +5,7 @@ export const colors = {
     mainYellow2: `#F2AF29`,
     mainGrey: `#474747`,
   }
-  export const textSlanted = `font-family: 'Montserrat', sans-serif;`
+  export const textSlanted = `font-family: 'Raleway', sans-serif;`
   
   export const transDefault = 'transition:all 0.5s ease-in-out'
   export const transFunction = (
@@ -39,6 +39,6 @@ export const colors = {
     return `border:${width} ${type} ${color}`
   }
   
-  export const letterSpacing = ({ spacing = '0.1rem' }) => {
+  export const letterSpacing = ({ spacing = '-0.8px' }) => {
     return `letter-spacing:${spacing}`
   }
