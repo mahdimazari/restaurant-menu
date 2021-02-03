@@ -5,8 +5,9 @@ import React from "react"
 import Layout from "../components/layout"
 import img from "../images/homeBcg.jpeg"
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
-import Gallery1 from '../components/HomePageComponents/Gallery-1'
+// import Gallery1 from '../components/HomePageComponents/Gallery-1'
 import Gallery from '../components/HomePageComponents/Gallery'
+import Menu from '../components/HomePageComponents/Menu'
 import SEO from "../components/seo"
 import { MainHeader, Banner, BannerButton } from '../utils';
 const IndexPage = () => (
@@ -18,7 +19,7 @@ const IndexPage = () => (
  </MainHeader> 
  <QuickInfo />
  <Gallery />
- {/* <Gallery1 /> */}
+ <Menu />
   </Layout>
 )
 
