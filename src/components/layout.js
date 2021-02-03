@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import './bootstrap.min.css';
-import Navbar from '../components/Global/Navbar';
+import Navbar from '../components/Global/navbar/Navbar';
 import Footer from '../components/Global/Footer'
 // import { useStaticQuery, graphql } from "gatsby"
 // import Header from "./header"
