@@ -7,12 +7,14 @@ import img from "../images/menuBcg.jpeg"
 import SEO from "../components/seo"
 import {MainHeader} from '../utils/Header'
 import { Banner } from "../utils"
-
+import Menu from '../components/HomePageComponents/Menu'
 const MenuPage = () => (
   <Layout>
     <SEO title="Home" />
     <MainHeader Header img={img}> <Banner title="menu" subtitle= {` let's dig in `} /> </MainHeader> 
+    <Menu />
   </Layout>
+  
 )
 
 export default MenuPage
